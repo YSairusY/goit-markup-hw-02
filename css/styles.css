@@ -72,6 +72,7 @@ body {
 
 /* Кнопка заказа */
 .button {
+  cursor: pointer;
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
@@ -106,6 +107,7 @@ body {
   color: #434455;
 }
 
+/* Третя секція - наша команда */
 .section-three {
   width: 1440px;
   height: 732px;
@@ -138,7 +140,60 @@ body {
   color: #434455;
 }
 
+/* Четверта секція - наше портфоліо */
 .section-four {
   width: 1440px;
   height: 1240px;
+}
+
+.tagline-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.box-portfplio {
+  width: 360px;
+  height: 420px;
+  background: #fff;
+}
+
+.service {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.tipe-service {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
+  width: 1440px;
+  height: 312px;
+  background: #2e2f42;
+}
+
+.home-page-footer {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.title-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
