@@ -2,4 +2,143 @@ body {
   width: 1440px;
   height: 3300px;
   color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Хот-барр сайта */
+.home-page,
+.logo-color {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logo-color {
+  color: #4d5ae5;
+}
+
+/* Кнопки навігаціЇ */
+.nav-pages,
+.nav-page {
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-page:hover {
+  color: #404bbf;
+}
+
+/* Адресс */
+.adress-list,
+.adrs-info {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.adrs-info:hover {
+  color: #404bbf;
+}
+
+/* Перша секція - головна сторінка */
+.section-one {
+  width: 1440px;
+  height: 600px;
+  background: #2e2f42;
+}
+
+/* Заголовок сайта */
+.tagline-main {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  padding: 188px 472px 0px 472px;
+}
+
+/* Кнопка заказа */
+.button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+
+.button:hover {
+  background: #404bbf;
+}
+
+/* Друга секція - сильні сторони */
+
+.section-two {
+  width: 1440px;
+  height: 326px;
+}
+
+.title-stange-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.title-stange-article {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.section-three {
+  width: 1440px;
+  height: 732px;
+  background: #f4f4fd;
+}
+
+.tagline-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.personal-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.section-four {
+  width: 1440px;
+  height: 1240px;
 }
