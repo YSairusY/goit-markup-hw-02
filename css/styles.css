@@ -1,6 +1,4 @@
 body {
-  width: 1440px;
-  height: 3300px;
   color: #434455;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -12,15 +10,15 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .logo-color {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 /* Кнопки навігаціЇ */
@@ -41,6 +39,10 @@ body {
 }
 
 /* Адресс */
+.adress {
+  font-style: normal;
+}
+
 .adress-list,
 .adrs-info {
   text-decoration: none;
@@ -50,14 +52,13 @@ body {
   color: #434455;
 }
 
-.adrs-info:hover {
+.adrs-info:hover,
+.adrs-info:focus {
   color: #404bbf;
 }
 
 /* Перша секція - головна сторінка */
 .section-one {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
 }
 
@@ -68,18 +69,17 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;
-  padding: 188px 472px 0px 472px;
+  color: #ffffff;
 }
 
 /* Кнопка заказа */
 .button {
   cursor: pointer;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   background: #4d5ae5;
 }
 
@@ -91,8 +91,6 @@ body {
 /* Друга секція - сильні сторони */
 
 .section-two {
-  width: 1440px;
-  height: 326px;
 }
 
 .title-stange-list {
@@ -112,9 +110,7 @@ body {
 
 /* Третя секція - наша команда */
 .section-three {
-  width: 1440px;
-  height: 732px;
-  background: #f4f4fd;
+  background-color: #ffffff;
 }
 
 .tagline-team {
@@ -146,8 +142,6 @@ body {
 
 /* Четверта секція - наше портфоліо */
 .section-four {
-  width: 1440px;
-  height: 1240px;
 }
 
 .tagline-portfolio {
@@ -161,9 +155,7 @@ body {
 }
 
 .box-portfplio {
-  width: 360px;
-  height: 420px;
-  background: #fff;
+  background: #ffffff;
 }
 
 .service {
@@ -181,9 +173,8 @@ body {
   color: #434455;
 }
 
+/* Нижння частина сайта */
 .footer {
-  width: 1440px;
-  height: 312px;
   background: #2e2f42;
 }
 
@@ -193,8 +184,13 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-decoration: none;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.logo-footer-color {
+  color: #f4f4fd;
 }
 
 .title-footer {
