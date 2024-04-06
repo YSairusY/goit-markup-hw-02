@@ -39,20 +39,20 @@ body {
 }
 
 /* Адресс */
-.adress {
+.address {
   font-style: normal;
 }
 
-.adress-list,
-.adrs-info {
+.address-list,
+.address-info {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.adrs-info:hover,
-.adrs-info:focus {
+.address-info:hover,
+.address-info:focus {
   color: #404bbf;
 }
 
